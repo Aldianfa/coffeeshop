@@ -84,7 +84,7 @@ class _Home_pageState extends State<Home_page> {
                       hintStyle: TextStyle(color: Colors.grey, fontSize: 16)),
                 ),
               ),
-              SizedBox(height: 5,),
+              // SizedBox(height: 5,),
               // Text(
               //   'Use Best Voucher',
               //   style: TextStyle(fontSize: 16, color: Color.fromARGB(255, 13, 155, 0)),
@@ -135,7 +135,7 @@ class _Home_pageState extends State<Home_page> {
                                     Text(dataKopi[index].name, style: TextStyle(fontSize:18,fontWeight: FontWeight.bold)),
 
                                     SizedBox(height: 30,),
-                                    Text('Coffee Based',style: TextStyle(fontSize: 11, color: Colors.grey),),
+                                    Text(dataKopi[index].des,style: TextStyle(fontSize: 11, color: Colors.grey),),
                                     Text('Rp.'+dataKopi[index].price, style: TextStyle(fontWeight: FontWeight.bold,color: Color.fromARGB(255, 13, 155, 0)),)
                                   ],
                                 ),
@@ -149,6 +149,7 @@ class _Home_pageState extends State<Home_page> {
                 },
                 
               )
+              
             ],
           ),
         ),

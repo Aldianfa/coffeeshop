@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:uts_mobile/homepage2.dart';
 import 'package:uts_mobile/home_kopi.dart';
-import 'package:uts_mobile/loginpage.dart';
+// import 'package:uts_mobile/homepage2.dart';
+// import 'package:uts_mobile/loginpage.dart';
 
 void main(List<String> args) {
   runApp(MyApp());

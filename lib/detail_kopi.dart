@@ -1,5 +1,3 @@
-
-
 import 'package:flutter/material.dart';
 import 'package:uts_mobile/models/datakopi.dart';
 
@@ -81,7 +79,17 @@ class Detail_kopi extends StatelessWidget {
                         fontWeight: FontWeight.bold
                       ),
                     ),
-                    SizedBox(height: 5,),
+                    SizedBox(height: 2,),
+
+                    Text(datakopi.des,
+                    style: TextStyle(
+                      fontSize: 14,
+                      color: Colors.grey,
+                      fontWeight: FontWeight.bold,
+                      
+                    ),
+                    ),
+                    SizedBox(height: 10,),
                     Container(
                       height: 50,
                       width: width,
@@ -170,27 +178,7 @@ class Detail_kopi extends StatelessWidget {
           ),
         ),
       ),
-      // body: Column(
-      //   children:[
-          
-      //     Container(child: Image.asset(datakopi.image, fit: BoxFit.contain,)),
-      //     SizedBox(height: 10,),
-
-      //     Text(datakopi.name,
-      //     style: TextStyle(fontSize: 24,fontWeight: FontWeight.bold),
-      //     ),
-
-      //     Text(datakopi.price),
-      //     Padding(
-      //       padding: const EdgeInsets.all(16.0),
-      //       child : Text(
-      //         datakopi.description,
-      //         textAlign: TextAlign.justify,
-      //       )
-      //     )
-
-      //   ]
-      // ),
+      
     );
   }
 }
